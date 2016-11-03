@@ -9,7 +9,8 @@
     "binaryjs": "latest",
     "express": "latest",
     "jade": "latest",
-    "wav": "latest"
+    "wav": "latest",
+    "watson-developer-cloud": "^2.8.1"
   },
-  "author": "gabrielpoca"
+  "author": ""
 }

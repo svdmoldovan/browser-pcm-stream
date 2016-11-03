@@ -25,6 +25,10 @@
       window.Stream.end();
     }
 
+	function successSimple(stream) {
+		window.Stream.write(stream);
+	}
+	
     function success(e) {
       audioContext = window.AudioContext || window.webkitAudioContext;
       context = new audioContext();
